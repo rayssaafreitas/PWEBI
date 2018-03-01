@@ -1,9 +1,0 @@
-Controle
-	Listar usuários:
-		Exibir Lista de usuários
-		Alterar perfil do usuário para Admin ou Coment
-		Excluir usuário
-	Listar comentários:
-		Opção de check box para...
-			Excluir comentário
-			Editar (censurar) com mensagem padão "Mensgem ofensiva censurada!"
