@@ -1,0 +1,28 @@
+Problemas: (11/09)
+
+
+
+Em telaFavoritos.php adicionar botão (e código) para remover favoritos, pelo administrador... Falta
+
+
+Editar livro; ok
+Ao excluir um livro, em cascata, excluir também os comentários e favoritos associados àquele livro; Ok
+Exibir imagem com tamanho fixo; ok
+Em addComentario.php fazer uma regex para impedir inserir espaços em branco; OK
+Tratar exibição da data; Ok
+Inserir imagem; Ok
+Tratar mensagem de confirmação de exclusão (no estilo de confirm() do javascript); ok
+Impedir cadastro de livro e usuário repetidos; Ok
+Limitar inserção de mais de um favorito; ok
+Corrigir exibição dos comentários com caracteres estranhos; Ok
+Em formEditarLivro.php corrigir erro na tela quando anexa uma imagem inválida ou deixa de anexar; Ok
+Em formEditarLivro.php permitir editar livro sem informar imagem, mantendo assim a mesma já cadastrada; Ok
+
+// Inserindo na variável a data formatada no padrão dd-mm-aaaa hh-mm-ss
+$data = date("d-m-Y H:i:s", strtotime($comentario->data_comentario));
+// Exibindo a data formatada
+echo "$data";
+
+
+// Equivalente a clicar em backspace (botão "voltar" da tela do browser)
+<!-- &nbsp &nbsp <input type="button" class="btn btn-primary" value="Voltar" onClick="history.go(-1)"> -->

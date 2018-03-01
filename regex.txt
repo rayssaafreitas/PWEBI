@@ -1,0 +1,8 @@
+/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i/g
+
+var er = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i/g;
+var teste = er.exec($_POST['email']);
+
+if(var teste == false){
+  header();
+}
